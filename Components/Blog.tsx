@@ -10,7 +10,7 @@ const Blog = () => {
       </h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto">
-        <div>
+        <div data-aos="fade-right">
           <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/blog1.jpg"
@@ -36,7 +36,7 @@ const Blog = () => {
             <p className="mt-[1rem] text-white text-[18px] font-semibold">NextJS Fullstack Developement</p>
           </div>
         </div>
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="300">
           <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/blog2.jpg"
@@ -62,7 +62,7 @@ const Blog = () => {
             <p className="mt-[1rem] text-white text-[18px] font-semibold">Java Fullstack Developement</p>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-delay="600">
           <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/blog3.jpg"
