@@ -4,7 +4,7 @@ import { ChatBubbleLeftRightIcon, UserCircleIcon } from "@heroicons/react/16/sol
 
 const Blog = () => {
   return (
-    <div className="pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]">
+    <div id="blog" className="pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]">
       <h1 className="heading">
         MY <span className="text-yellow-400">BLOG</span>
       </h1>
